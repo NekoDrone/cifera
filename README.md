@@ -12,6 +12,14 @@ it can't steal ci pipelines, so you gotta set that up yourself, but it'll be an 
 
 catppuccin is mit licensed so it should be fine, but obviously you should credit the original maintainer(s)/contributor(s) of the port.
 
+obviously, if there's a problem with the port, you can open an issue to upstream but please contribute a fix as well.
+
+### additional considerations
+
+this part is mostly for me to remind myself when i have the time to work on this but feel free to read this as reference if you're reading this in the future.
+
+cifera should be runnable as a gh actions/gitlab ci/tangled pipeline/forgejo ci workflow/pipeline and as part of larger pipelines to automate this workflow.
+
 ## development
 
 also tbd, but nix provides.
