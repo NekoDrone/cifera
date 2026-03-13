@@ -1,5 +1,5 @@
 {
-  mkShellNoCC,
+  mkShell,
   callPackage,
   rustPlatform,
 
@@ -12,7 +12,7 @@
 let
   defaultPackage = callPackage ./default.nix { };
 in
-mkShellNoCC {
+mkShell {
   inputsFrom = [ defaultPackage ];
 
   env = {
